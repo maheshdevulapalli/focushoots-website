@@ -1,162 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Focushoots — Book a Creator, Get Your Reel in 10 Minutes</title>
-<meta name="description" content="Focushoots is an instant content creation platform. Book a trained iPhone creator nearby and get a professional social media reel or promo video shot, edited, and delivered in just 10 minutes." />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Focushoots connects you with trained iPhone creators nearby who shoot, edit and deliver professional social media reels fast.">
+  <title>Focushoots — Shoot. Edit. Post.</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header class="site">
-  <div class="container nav">
-    <a href="index.html" class="logo">Focus<span>hoots</span></a>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="how-it-works.html">How It Works</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <div class="nav-cta">
-      <a href="contact.html" class="btn btn-primary">Book a Shoot</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Focushoots home">
+        <img src="assets/focushoots-logo.png" alt="Focushoots">
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#how-it-works">How it works</a>
+        <a href="#who-its-for">For you</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-small btn-red nav-cta" href="#book">Book a Focushoot</a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
     </div>
-  </div>
-</header>
+  </header>
 
-<main>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> Instant content creation</div>
+          <h1>Professional reels.<br><em>Ready in 10 minutes.</em></h1>
+          <p class="hero-text">
+            Book a trained iPhone creator near you. We shoot, edit and deliver
+            a polished reel or promo video while the moment is still fresh.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-red" href="#book">Book a Focushoot <span>→</span></a>
+            <a class="btn btn-outline" href="#how-it-works">See how it works</a>
+          </div>
+          <div class="hero-proof">
+            <div><strong>10 min</strong><span>Shoot to delivery</span></div>
+            <div><strong>iPhone</strong><span>Pro-style capture</span></div>
+            <div><strong>1 tap</strong><span>Easy booking</span></div>
+          </div>
+        </div>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container">
-      <span class="eyebrow">⚡ Also searched as “flash shoot”</span>
-      <h1>Studio-quality reels, shot and delivered in 10 minutes.</h1>
-      <p class="lede">Focushoots connects you with trained iPhone creators nearby who shoot, edit, and deliver a professional social media reel or promo video — fast enough to post before your coffee gets cold.</p>
-      <div class="hero-actions">
-        <a href="contact.html" class="btn btn-primary">Book a Focushoot →</a>
-        <a href="how-it-works.html" class="btn btn-outline">See how it works</a>
+        <div class="hero-visual" aria-label="Focushoots service preview">
+          <div class="phone-card">
+            <div class="phone-top"><span>FOCUSHOOTS</span><span>● REC</span></div>
+            <div class="phone-screen">
+              <div class="play-ring">▶</div>
+              <div class="screen-caption">Shoot. Edit.<br><b>Post.</b></div>
+            </div>
+            <div class="phone-bottom"><span>09:58</span><span>READY TO POST</span></div>
+          </div>
+          <div class="floating-card fc-one"><b>10 MIN</b><span>Typical delivery</span></div>
+          <div class="floating-card fc-two"><b>ON-DEMAND</b><span>Creator near you</span></div>
+        </div>
       </div>
-      <div class="hero-stats">
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner">
+        <span>Built for people who need great content — right now.</span>
+        <div class="trust-pills">
+          <span>Brands</span><span>Creators</span><span>Events</span><span>Local businesses</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow"><span></span> The Focushoot way</div>
+            <h2>From idea to Instagram<br><em>in three simple steps.</em></h2>
+          </div>
+          <p>No studio bookings. No waiting on freelancers. No editing software. Just tap, shoot and post.</p>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step-number">01</div>
+            <h3>Book a Focushoot</h3>
+            <p>Tell us what you need and connect with a trained iPhone creator near you.</p>
+          </article>
+          <article class="step">
+            <div class="step-number">02</div>
+            <h3>Shoot on the spot</h3>
+            <p>Your creator arrives, sets up and captures your reel or promo with proven techniques.</p>
+          </article>
+          <article class="step">
+            <div class="step-number">03</div>
+            <h3>Get it edited</h3>
+            <p>Footage is cut, graded and delivered ready to post — typically within 10 minutes of wrap.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="who-its-for">
+      <div class="container">
+        <div class="section-head light">
+          <div>
+            <div class="eyebrow"><span></span> Made for momentum</div>
+            <h2>Whatever you’re building,<br><em>keep the content moving.</em></h2>
+          </div>
+        </div>
+
+        <div class="audience-grid">
+          <article class="audience">
+            <span class="audience-icon">01</span>
+            <h3>Businesses & brands</h3>
+            <p>Product drops, store walkthroughs, promos and daily social content — without a full-time videographer.</p>
+          </article>
+          <article class="audience">
+            <span class="audience-icon">02</span>
+            <h3>Creators & influencers</h3>
+            <p>Get filmed instead of filming yourself. Focus on the performance while your creator handles the camera.</p>
+          </article>
+          <article class="audience">
+            <span class="audience-icon">03</span>
+            <h3>Events & launches</h3>
+            <p>On-site recap reels that go live while the moment is still fresh and the energy is still high.</p>
+          </article>
+          <article class="audience">
+            <span class="audience-icon">04</span>
+            <h3>Local & personal brands</h3>
+            <p>Real estate, salons, restaurants, coaches and more — polished reels that build trust and drive bookings.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section book-section" id="book">
+      <div class="container book-grid">
+        <div class="book-copy">
+          <div class="eyebrow"><span></span> Let’s create</div>
+          <h2>Tell us what you want to shoot.</h2>
+          <p>Fill in the quick brief and send it to Focushoots on WhatsApp. We’ll take it from there.</p>
+          <div class="contact-mini">
+            <a href="https://wa.me/message/VVF6LTLPGUEOH1?src=qr" target="_blank" rel="noopener">WhatsApp us →</a>
+            <a href="tel:+918142247398">+91 8142247398</a>
+          </div>
+        </div>
+
+        <form class="lead-form" id="leadForm">
+          <div class="form-row">
+            <label>Your name<input id="name" name="name" required placeholder="Your name"></label>
+            <label>Business / brand<input id="business" name="business" placeholder="Optional"></label>
+          </div>
+          <div class="form-row">
+            <label>Phone number<input id="phone" name="phone" type="tel" required placeholder="+91"></label>
+            <label>What do you need?<select id="service" name="service">
+              <option>Instagram Reel</option>
+              <option>Product / Brand Promo</option>
+              <option>Event / Launch Reel</option>
+              <option>Creator Content</option>
+              <option>Other</option>
+            </select></label>
+          </div>
+          <label>Tell us a little about the shoot<textarea id="message" name="message" rows="4" placeholder="Date, location, idea, number of reels, etc."></textarea></label>
+          <button class="btn btn-red btn-full" type="submit">Send brief on WhatsApp <span>→</span></button>
+          <p class="form-note">Your message will open directly in WhatsApp with your details filled in.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="qr-section" id="contact">
+      <div class="container qr-grid">
         <div>
-          <div class="stat-num">10 min</div>
-          <div class="stat-label">Shoot to delivery</div>
+          <div class="eyebrow"><span></span> Prefer to scan?</div>
+          <h2>Open WhatsApp.<br><em>Let’s talk content.</em></h2>
+          <p>Scan the QR code with your phone camera and message Focushoots directly. It’s the fastest way to get started.</p>
+          <a class="btn btn-outline dark-btn" href="https://wa.me/message/VVF6LTLPGUEOH1?src=qr" target="_blank" rel="noopener">Open WhatsApp directly →</a>
         </div>
-        <div>
-          <div class="stat-num">100%</div>
-          <div class="stat-label">Shot on iPhone</div>
+        <div class="qr-card">
+          <img src="assets/whatsapp-qr.png" alt="Focushoots WhatsApp QR code">
+          <strong>Scan to WhatsApp Focushoots</strong>
+          <span>Fast. Direct. No forms to remember.</span>
         </div>
-        <div>
-          <div class="stat-num">1 tap</div>
-          <div class="stat-label">To book a creator</div>
-        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/focushoots-logo.png" alt="Focushoots">
+        <p>Instant content creation. Book a trained iPhone creator and get a professional reel shot, edited and delivered fast.</p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:+918142247398">+91 8142247398</a>
+        <a href="mailto:mahesh@focushoots.in">mahesh@focushoots.in</a>
+        <span>Kothagudem, India</span>
       </div>
     </div>
-  </section>
+    <div class="container copyright">© <span id="year"></span> Focushoots. All rights reserved.</div>
+  </footer>
 
-  <!-- What we do -->
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-head">
-        <div class="kicker">What is Focushoots</div>
-        <h2>An instant content creation platform, on demand.</h2>
-        <p>No studio bookings, no waiting on freelancers, no editing software. Just tap, shoot, and post — Focushoots handles the rest.</p>
-      </div>
-      <div class="grid-3">
-        <div class="card">
-          <div class="num">01</div>
-          <h3>Book a Focushoot</h3>
-          <p>Choose a trained iPhone creator near you and pick a time — often available the same hour.</p>
-        </div>
-        <div class="card">
-          <div class="num">02</div>
-          <h3>Shoot on the spot</h3>
-          <p>Your creator arrives, sets up, and captures your reel or promo video using proven iPhone techniques.</p>
-        </div>
-        <div class="card">
-          <div class="num">03</div>
-          <h3>Get it edited & delivered</h3>
-          <p>Footage is cut, graded, and delivered ready to post — typically within 10 minutes of wrap.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Who it's for -->
-  <section>
-    <div class="container">
-      <div class="section-head">
-        <div class="kicker">Built for</div>
-        <h2>Anyone who needs great content, right now.</h2>
-      </div>
-      <div class="grid-2">
-        <div class="card">
-          <h3>Businesses & brands</h3>
-          <p>Product drops, store walkthroughs, promos, and daily social content — without hiring a full-time videographer.</p>
-        </div>
-        <div class="card">
-          <h3>Creators & influencers</h3>
-          <p>Get filmed instead of filming yourself. Focus on the performance, let a Focushoots creator handle the camera.</p>
-        </div>
-        <div class="card">
-          <h3>Events & launches</h3>
-          <p>On-site same-day recap reels that go live while the moment is still fresh.</p>
-        </div>
-        <div class="card">
-          <h3>Local & personal brands</h3>
-          <p>Real estate, salons, restaurants, coaches — polished reels that build trust and drive bookings.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA band -->
-  <section>
-    <div class="container">
-      <div class="cta-band">
-        <div>
-          <h2>Ready for your first Focushoot?</h2>
-          <p>Book a creator in Kothagudem and have your reel in hand within 10 minutes of wrap.</p>
-        </div>
-        <a href="contact.html" class="btn btn-outline">Book Now →</a>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site">
-  <div class="container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <div class="logo">Focus<span>hoots</span></div>
-        <p>Instant content creation. Book a trained iPhone creator and get a professional reel shot, edited, and delivered in 10 minutes.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Explore</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="how-it-works.html">How It Works</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="tel:+919618372132">+91 96183 72132</a></li>
-          <li><a href="mailto:mahesh@focushoots.in">mahesh@focushoots.in</a></li>
-          <li>Kothagudem, India</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 Focushoots. All rights reserved.</span>
-      <span>Kothagudem, India</span>
-    </div>
-  </div>
-</footer>
-
+  <a class="floating-wa" href="https://wa.me/message/VVF6LTLPGUEOH1?src=qr" target="_blank" rel="noopener" aria-label="Chat with Focushoots on WhatsApp">✆</a>
+  <script src="script.js"></script>
 </body>
 </html>
